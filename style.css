@@ -1,0 +1,160 @@
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body {
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 40px;
+
+    margin: 20px 0px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.header-p-head {
+    margin-bottom: 30px;
+}
+button {
+
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+.green-button {
+    background-color: var(--Strong-Cyan);
+    margin-right: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 128, 0, 0.253);
+}
+.parple-button {
+    background-color: var(--Light-Blue);
+    box-shadow: 4px 4px 5px rgba(128, 0, 128, 0.137);
+}
+
+.header-bottom {
+margin-top: 100px;
+}
+b {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 30px;
+
+}
+.header-p-bottom {
+    margin-top: 20px;
+    font-size: 18px;
+}
+ p {
+    line-height: 30px;
+    color: var(--Grayish-Blue);
+}
+.section-one {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-img img {
+    width: 750px;
+    height: 550px;
+}
+small {
+    font-size: 20px;
+    color: var(--Dark-Grayish-Blue);
+    font-family:600 ;
+}
+.section-one p {
+    margin-top: 10px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.section-one-text {
+    margin-right:150px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.section-tow {
+    text-align: center;
+    margin-top: 150px;
+}
+.section-tow img {
+    margin-top: 100px;
+    width: 900px;
+    height: 600px;
+}
+.section-tow p{
+    margin-top: 20px;
+}
+.section-tree {
+    text-align: center;
+    margin-top: 50px;
+}
+.section-tree p  {
+    margin-top: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+svg {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.cards p {
+    width: 300px;
+}
+.card-2 {
+    margin: 0px 70px;
+}
+.section-tree-imgs img {
+    margin-right: 90px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.section-tree-bottom-p {
+    margin: 40px 0px;
+}
+footer {
+    background-color:hsla(202, 11%, 66%, 0.171) ;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.logo-footer {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 10px;
+}
+.footer-icons img {
+    margin-left: 15px;
+}
+
+
+
